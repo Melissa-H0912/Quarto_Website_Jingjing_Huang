@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: doc
+
+website:
+  title: "website_quarto_exercise2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+
+editor: visual
+
